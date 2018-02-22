@@ -1,0 +1,40 @@
+body {
+  background: url(https://n6-img-fp.akamaized.net/free-vector/triangle-background-pattern_1319-107.jpg?size=338&ext=jpg) repeat;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  flex-flow: column nowrap;
+  background: #fff;
+  padding: 40px;
+  max-width: 60%;
+}
+
+.header-container {
+  text-align: center;
+}
+
+.action-container {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.action__item {
+  text-align: center;
+  padding: 10px 0;
+  width: 300px;
+}
+
+.action__item-twitter {
+  margin-top: 10px;
+  background: #00aced;
+  color: #fff;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=app.css.map */

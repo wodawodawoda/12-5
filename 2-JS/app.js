@@ -24,13 +24,13 @@ function createTweet(input) {
 		var tweet = tweetLink + encodeURIComponent(tweetText);
 		$('.box__quote').text(quoteText);
 		$('.box__author').text("Author: " + quoteAuthor);
-		$('.action__tweet').attr('href', tweet);
+		$('.action__item-twitter').attr('href', tweet);
 	}
 }
 
 $(function() {
 	getQuote();
-	$('.action__trigger').click(function() {
+	$('.action__item-trigger').click(function() {
 		getQuote();
 	});
 });
